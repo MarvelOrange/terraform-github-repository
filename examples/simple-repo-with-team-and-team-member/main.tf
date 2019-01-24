@@ -7,7 +7,8 @@ provider "github" {}
 # Example Repo with all teams
 #############################
 module "test_repo" {
-  source = "/Users/marvelorange/GIT/OCS/terraform-github-repository"
+  source  = "MarvelOrange/repository/github"
+  version = "0.1.0"
 
   repo_name        = "testing-repo"
   repo_description = "Hello testing repo"
