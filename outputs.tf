@@ -17,7 +17,7 @@ output "repo_https_clone_url" {
 }
 
 output "repo_https_url" {
-  value = "${github_repository.repo.http_url}"
+  value = "${github_repository.repo.html_url}"
   description = "URL to the repository on the web"
 }
 
